@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crush Corner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="brand">Crush Corner</div>
+
+  <div class="nav-links">
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<header class="hero">
+  <img src="assets/images/logo.png" class="logo">
+  <h2>Crafted for Cravings</h2>
+</header>
+<div class="delivery-hero">
+  <span>Available On</span>
+  <img src="assets/icons/swiggy.png">
+  <img src="assets/icons/zomato.png">
+</div>
+
+<!-- MENU -->
+<section id="menu" class="section">
+  <h1>Our Menu</h1>
+
+  <div class="filters">
+    <button onclick="filterMenu('all')">All</button>
+    <button onclick="filterMenu('veg')">Veg</button>
+    <button onclick="filterMenu('nonveg')">Non-Veg</button>
+    <button onclick="filterMenu('biryani')">Biryani</button>
+    <button onclick="filterMenu('friedrice')">Fried Rice</button>
+  </div>
+
+  <div id="menuContainer" class="menu-grid"></div>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="footer-container">
+
+    <div>
+      <h3>Address</h3>
+      <p>
+        Sree Rama College Bus Stand,<br>
+        Mangalam, Venkatapuram,<br>
+        Andhra Pradesh – 517507
+      </p>
+   <div class="map-wrapper">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124066.78321885534!2d79.466343!3d13.652473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d495a9cb1a68b%3A0xaad0b770f75f56a7!2sCrush%20Corner!5e0!3m2!1sen!2sus!4v1769917218292!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+      <p>📞 <a href="tel:+919999999999">+91 99999 99999</a></p>
+
+      <p>🕒 8:00 AM – 10:30 PM</p>
+    </div>
+
+    <div>
+      <h3>Follow Us</h3>
+      <a href="#####">Instagram</a>
+    </div>
+    <div class="delivery">
+  <p>Available On</p>
+
+  <a href="https://www.swiggy.com" target="_blank">
+    <img src="assets/icons/swiggy.png" alt="Swiggy">
+  </a>
+
+  <a href="https://www.zomato.com" target="_blank">
+    <img src="assets/icons/zomato.png" alt="Zomato">
+  </a>
+</div>
+
+
+  </div>
+
+  <p class="copy">© 2026 Crush Corner</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
